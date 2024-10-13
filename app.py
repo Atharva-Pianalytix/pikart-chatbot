@@ -75,7 +75,7 @@ def predict_class(sentence):
 
 # get responce from chatbot
 def get_response(intents_list, intents_json):
-    tag = intents_list[0]['intent']
+    tag = intents_list[0]['intents']
 
     list_of_intents = intents_json['intents']
 
