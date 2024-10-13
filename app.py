@@ -10,6 +10,7 @@ from tensorflow.keras.models import load_model
 
 # download the nltk packages
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 
 # initialize the flask app
